@@ -1,0 +1,26 @@
+/* src/pages/Login.css or Register.css */
+.auth-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #755555;
+  border-radius: 5px;
+}
+
+.auth-form .btn {
+  width: 100%;
+  padding: 0.75rem;
+}
